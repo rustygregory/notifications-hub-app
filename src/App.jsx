@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ThemeProvider } from '@zendeskgarden/react-theming'
+import { ThemeProvider } from './flora-theme/elements/ThemeProvider'
 import { TopBar, MainNav } from 'zendesk-globalnav-template'
 import styled from 'styled-components'
 import NotificationsHub from './components/NotificationsHub'
